@@ -1,0 +1,2 @@
+ls /usr/local/opt | grep php@
+

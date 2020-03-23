@@ -9,5 +9,8 @@ read -r -s -p "[sudo] sudo password for $(whoami):" pass
 
 brew bundle --file=./Brewfile
 
+hyper i hyper-tab-enhanced hyperline hyper-hypest
+cp .vimrc ../.vimrc
+
 printf '\n\n🎉 Congrat! Your mac has been set up successfully for working with PlusTV Team!\n'
 

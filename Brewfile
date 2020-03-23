@@ -1,5 +1,4 @@
 tap "exolnet/deprecated"
-tap "heroku/brew"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-versions"
@@ -7,30 +6,13 @@ tap "homebrew/core"
 tap "homebrew/services"
 tap "phinze/cask"
 
-brew "autoconf"
-brew "openldap"
-brew "flow"
-brew "libtool"
-brew "libpng"
-brew "gcc"
-brew "gdb"
 brew "git"
-brew "python"
-brew "httpd", restart_service: true
-brew "libusb"
-brew "ios-webkit-debug-proxy"
-brew "libiconv"
-brew "mariadb", restart_service: true
 brew "minikube"
-brew "node", link: false
-brew "pkg-config"
-brew "watchman"
 brew "yarn"
-brew "zlib"
 brew "zsh"
 
 cask "docker"
 cask "slack"
 cask "google-chrome"
-cask "virtualbox"
 cask "hyper"
+

@@ -17,6 +17,10 @@ cd $HOME/.jaehong
 # 번들 설치
 brew bundle --file=./Brewfile
 
+# git 설정
+git config --global user.name "Jaehong Hwang"
+git config --global user.email dev.jaehong@gmail.com
+
 # 서브모듈 설치
 git submodule init
 git submodule update

@@ -1,13 +1,18 @@
 #!/usr/bin/env bash
 
-cd $HOME/.jaehong
+# zsh 설치
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+# brew 확인 및 없을시 설치
 if ! which brew
 then
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+    echo "alias code=\"/Applications/Visual\\ Studio\\ Code.app/Contents/Resources/app/bin/code\""
 fi
 
 read -r -s -p "[sudo] sudo password for $(whoami):" pass
+
+cd $HOME/.jaehong
 
 # 번들 설치
 brew bundle --file=./Brewfile

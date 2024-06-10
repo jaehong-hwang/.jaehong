@@ -1,3 +1,6 @@
-[submodule "app/phpto"]
-	path = app/phpto
+[submodule "phpto"]
+	path = phpto
 	url = https://github.com/jaehong-hwang/phpto
+[submodule "geometry"]
+	path = geometry
+	url = https://github.com/geometry-zsh/geometry

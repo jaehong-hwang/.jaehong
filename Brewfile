@@ -1,18 +1,13 @@
-tap "exolnet/deprecated"
 tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/cask-versions"
-tap "homebrew/core"
 tap "homebrew/services"
-tap "phinze/cask"
 
-brew "git"
-brew "minikube"
-brew "yarn"
-brew "zsh"
+brew "nvm"
+brew "mas"
 
 cask "docker"
 cask "slack"
 cask "google-chrome"
-cask "hyper"
+cask "notion"
+cask "warp"
 
+mas "KakaoTalk", 869223134
